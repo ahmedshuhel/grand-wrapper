@@ -28,14 +28,25 @@ exports.GrandWrapper = {
         done();
     },
 
-    wrap_content: function (test) {
+    wrap_normal_file: function (test) {
         test.expect(1);
 
+        var spec = grunt.file.read('tmp/testing');
+        var expected = grunt.file.read('test/expected/default_option');
+
+        test.equal(spec, expected, 'files should be similar');
+        test.done();
+    },
+
+    wrap_spac: function(test)
+    {
+        test.expect(1);
         var spec = grunt.file.read('tmp/spec.js');
         var expected = grunt.file.read('test/expected/wrappedfile.js');
 
         test.equal(spec, expected, 'files should be similar');
         test.done();
+
     }
 
 };
