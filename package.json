@@ -1,6 +1,6 @@
 {
-  "name": "GrandWrapper",
-  "description": "This plugins wrap a javascript file with some function",
+  "name": "Grand Wrapper",
+  "description": "This plugin wraps content of specified files with other content defined in the template.",
   "version": "0.1.0",
   "homepage": "https://github.com/Shuhel Ahmed/grantwrapper",
   "author": {
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Shuhel Ahmed/grantwrapper.git"
+    "url": "git@github.com:ahmedshuhel/grand-wrapper.git"
   },
   "bugs": {
-    "url": "https://github.com/Shuhel Ahmed/grantwrapper/issues"
+    "url": "https://github.com/ahmedshuhel/grand-wrapper/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/Shuhel Ahmed/grantwrapper/blob/master/LICENSE-MIT"
+      "url": "https://github.com/ahmedshuhel/grand-wrapper/issues/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
